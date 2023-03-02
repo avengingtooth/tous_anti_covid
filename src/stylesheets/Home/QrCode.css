@@ -1,0 +1,49 @@
+.qrCode{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    background-color: var(--primaryBgColor);
+    align-items: center;
+    /* TODO radom color plus px */
+    box-shadow: 3px 4px 4px 0 #bebed7;
+    border-radius: 7px;
+}
+
+.allInfo{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.userQR{
+    width: 80%;
+    justify-self: center;
+}
+
+.sharingIcons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 3.5vw;
+}
+
+.sharingIcons img{
+    margin-left: 8%;
+    height: 120%;
+}
+
+.favoriteCertificateText{
+    color: var(--secondaryLightGrey);
+    font-size: 11.1px;
+}
+
+#qrCodeOwnerName{
+    font-weight: bold;
+    font-size: 17.4px;
+}
+
+.qrCodeDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}

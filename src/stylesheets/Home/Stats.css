@@ -1,0 +1,127 @@
+/* graph */
+.graphContainer{
+    display: grid;
+    grid-template-columns: 1fr 10%;
+    background-color: var(--primaryWhite);
+    border-radius: 8.9px;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.25);
+    padding: 3%;
+}
+
+.verticalText{
+    width: max-content;
+    transform: rotate(-90deg);
+}
+
+.graph{
+    width: 100%;
+}
+
+/* search info input */
+.stats form{
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+}
+
+.searchInfo{
+    font-size: 8.5px;
+    width: 70%;
+    padding: 1%;
+    text-align: center;
+    border-radius: 3px;
+    border: solid 1px #c2c2d9;
+    /* background-image: url('../../../public/Icons/Input/pencil.png');
+    background-repeat: no-repeat; */
+}
+
+/* show more */
+.showMoreInfo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.showMoreInfo button{
+    padding: 4%;
+}
+
+/* Info blocks */
+.allInfoBlocks{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.infoBlock{
+    border-radius: 9px;
+}
+
+.infoBlock p{
+    color: var(--primaryWhite);
+}
+
+.infoValue{
+    font-weight: 800;
+    font-size: 40px;
+    padding: 4% 0 4% 0;
+    letter-spacing: -1.2px;
+}
+
+.infoTitle{
+    font-size: 13px;
+    border-radius: 0 0 9px 9px;
+    padding: 4% 0 15% 0;
+    letter-spacing: -0.33px;
+}
+
+/* color settings for info blocks */
+.darkGreen{
+    background-color: var(--darkGreen);
+}
+
+.lightGreen{
+    background-color: var(--lightGreen);
+}
+
+.darkSlateGrey{
+    background-color: var(--darkSlateGrey);
+}
+
+.lightSlateGrey{
+    background-color: var(--lightSlateGrey);
+}
+
+.darkPurple{
+    background-color: var(--darkPurple);
+}
+
+.lightPurple{
+    background-color: var(--lightPurple);
+}
+
+.darkBlue{
+    background-color: var(--darkBlue);
+}
+
+.lightBlue{
+    background-color: var(--lightBlue);
+}
+
+.darkOrange{
+    background-color: var(--darkOrange);
+}
+
+.lightOrange{
+    background-color: var(--lightOrange);
+}
+
+.darkPink{
+    background-color: var(--darkPink);
+}
+
+.lightPink{
+    background-color: var(--lightPink);
+}
+
+
