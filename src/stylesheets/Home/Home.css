@@ -1,0 +1,11 @@
+.sectionHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.clickToShow{
+  color: var(--secondaryDarkGrey);
+  letter-spacing: -0.53px;
+  font-size: 14.6px;
+}

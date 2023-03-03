@@ -1,18 +1,7 @@
-header{
-    position: sticky;
-    top: 1%;
-    padding-top: 6%;
-    background-color: var(--mainBgColor);
-}
-
 nav{
     display: flex;
     justify-content: space-between;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25);
     padding: 0% 5% 2% 5%;
     align-items: center;
-}
-
-nav img{
-    height: 100%;
 }

@@ -1,0 +1,22 @@
+.gov-codes{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    align-content: center;
+    padding: 5%;
+    text-align: center;
+    gap: 5%;
+}
+
+.gov-codes .userQR{
+    margin: auto;
+}
+
+.govLogos{
+    display: flex;
+    justify-items: baseline;
+    justify-content: space-between;
+}
+
+.govLogos img{
+    height: 100%;
+}

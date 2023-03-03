@@ -1,70 +1,70 @@
 :root{
-  --mainBgColor: #f1f2f6;
+    --mainBgColor: #f1f2f6;
+    
+    --primaryBgColor: #e3e3fd;
+    --primaryWhite: #FFFFFF;
+    --primaryBlue: #000091;
+    --primaryBlack: hsl(0, 0%, 8%);
   
-  --primaryBgColor: #e3e3fd;
-  --primaryWhite: #FFFFFF;
-  --primaryBlue: #000091;
-  --primaryBlack: #141414;
-
-  --secondaryViolet: #E3E3FD;
-  --secondaryDarkGrey: #666666;
-  --secondaryLightGrey: #7B7B7B;
-  --secondaryOrange: #D64D00;
-
-  --darkGreen: #37635f;
-  --lightGreen: #478f89;
-  --darkSlateGrey: #3b6681;
-  --lightSlateGrey: #60849a;
-  --darkPurple: #8047a5;
-  --lightPurple: #916ca9;
-  --darkBlue: #0062f8;
-  --lightBlue: #4f91f5;
-  --darkOrange: #cd5c1d;
-  --lightOrange: #db8c5f;
-  --darkPink: #ea3656;
-  --lightPink: #e48294;
+    --secondaryViolet: #E3E3FD;
+    --secondaryDarkGrey: #666666;
+    --secondaryLightGrey: #7B7B7B;
+    --secondaryOrange: #D64D00;
+  
+    --darkGreen: #37635f;
+    --lightGreen: #478f89;
+    --darkSlateGrey: #3b6681;
+    --lightSlateGrey: #60849a;
+    --darkPurple: #8047a5;
+    --lightPurple: #916ca9;
+    --darkBlue: #0062f8;
+    --lightBlue: #4f91f5;
+    --darkOrange: #cd5c1d;
+    --lightOrange: #db8c5f;
+    --darkPink: #ea3656;
+    --lightPink: #e48294;
 }
-
+  
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  color: var(--primaryBlack);
-  gap: 2%;
-  /* font-family: Marianne; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--primaryBlack);
+    gap: 2%;
+    /* font-family: Marianne; */
 }
 
-body{
-  background-color: var(--mainBgColor);
+header{
+    position: sticky;
+    top: 1%;
+    padding-top: 6%;
+    background-color: var(--mainBgColor);
 }
 
-.App > section{
-  margin: 5%;
+nav img{
+    height: 100%;
 }
 
 h1{
-  font-size: 22.6px;
+    font-size: 22.6px;
 }
-
+  
 a{
-  font-size: 15.1px;
-  letter-spacing: -0.53px;
-  color: var(--primaryBlue);
-  text-decoration: none;
+    font-size: 15.1px;
+    letter-spacing: -0.53px;
+    color: var(--primaryBlue);
+    text-decoration: none;
 }
 
-.sectionHeader{
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+body{
+    background-color: var(--mainBgColor);
+}
+
+.App > section{
+    margin: 5%;
 }
 
 button, input{
-  all: unset;
+    all: unset;
 }
-
-.clickToShow{
-  color: var(--secondaryDarkGrey);
-  letter-spacing: -0.53px;
-  font-size: 14.6px;
-}
+  

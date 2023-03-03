@@ -1,0 +1,22 @@
+.navIcons{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+}
+
+.navIcons img{
+    margin-right: 5%;
+}
+
+nav a{
+    font-size: 19.6px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 2% 0;
+    margin: 0 5% 0 5%;
+    align-items: center;
+}

@@ -9,8 +9,10 @@
 }
 
 .verticalText{
+    position: absolute;
     width: max-content;
     transform: rotate(-90deg);
+    translate: -50% 500%;
 }
 
 .graph{
